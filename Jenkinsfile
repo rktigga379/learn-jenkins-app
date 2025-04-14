@@ -11,6 +11,7 @@ pipeline {
             }
             steps {
                 sh '''
+                    echo this is testing nope
                     ls -la
                     node --version
                     npm --version
